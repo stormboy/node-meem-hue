@@ -1,0 +1,18 @@
+{
+  "name": "meem-hue",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "meem": "git://github.com/stormboy/node-meem.git",
+    "node-hue-api": "*",
+    "nedb": "*",
+    "underscore": "*"
+  },
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/stormboy/node-meem-hue.git"
+  }
+}
